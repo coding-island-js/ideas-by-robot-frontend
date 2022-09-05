@@ -3,9 +3,9 @@ const moviePlot = document.getElementById("displayMoviePlot-id");
 // call OpenAI API
 
 function getScienceMoviePlot() {
-   const url = "http://localhost:8080/movieplot/";
+  // const url = "http://localhost:8080/movieplot/";
 
-  //const url = "https://robot-ai-ideas.herokuapp.com/movieplot/";
+  const url = "https://ideas-by-robot.up.railway.app/movieplot/";
 
   fetch(url, {
     method: "GET",
